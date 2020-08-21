@@ -1,0 +1,151 @@
+\begin{comment}
+\item Considere os  conjuntos $A=\{$divisores naturais de $30\}$, $B=\{$múltiplos de $6\}$ e $C=\{$múltiplos de $3\}$. Calcule:
+
+               \begin{enumerate}[label=\textbf{\alph*)}]
+               \item $A \cup C$
+               \item $B \cap C$
+               \item $A \cap (B \cup C)$
+               \item $A \cap B \cap C$
+               \item Quais os elementos de $A$ que não pertencem a $B$.
+               \end{enumerate}
+
+\item Com base no diagrama ao lado, calcule:
+
+       \begin{minipage}{.3\linewidth}
+
+               \begin{enumerate}[label=\textbf{\alph*)}]
+               \item $A \cup B$
+               \item $A \cap C$
+               \item $A \cup C$
+               \item $B \cap C$
+               \item $B \cup C$
+               \end{enumerate}
+
+       \end{minipage}
+       \begin{minipage}{.3\linewidth}
+
+               \begin{enumerate}[resume, label=\textbf{\alph*)}]
+               \item $A \cap B \cap C$
+               \item $A \cup B \cup C$
+               \item $(A \cup B) \cap C$
+               \item $(A \cap B)$
+               \item $(A \cap B) \cup C$
+               \end{enumerate}
+
+       \end{minipage}
+       \begin{minipage}{.3\linewidth}
+               \begin{figure}[H]
+
+               \includegraphics[width=6cm]{exerc6.png}
+
+               \end{figure}
+
+       \end{minipage}
+
+\item Dados $A=\{0, 1, 2, 3\}$, $B=\{1, 2, 3\}$ e $C=\{2, 3, 4, 5\}$, determine:
+
+       \begin{minipage}{.3\linewidth}
+
+                \begin{enumerate}[label=\textbf{\alph*)}]
+                \item $A-B$
+                \item $A-C$
+                \item $B-C$
+                \end{enumerate}
+
+       \end{minipage}
+       \begin{minipage}{.3\linewidth}
+
+                \begin{enumerate}[resume, label=\textbf{\alph*)}]
+                \item $(A \cap B)-C$
+                \item $(A-C) \cap (B-C)$
+                \item $A- \emptyset$
+                \end{enumerate}
+
+       \end{minipage}
+       \begin{minipage}{.3\linewidth}
+
+                \begin{enumerate}[resume, label=\textbf{\alph*)}]
+                \item $\complement_{A^{B}}$
+                \item $\complement_{A^{(B \cap C)}}$
+                \item $(\emptyset-B) \cup \complement_{C^{\emptyset}}$
+                \end{enumerate}
+
+       \end{minipage}
+
+\item Diga qual proposição é verdadeira e qual é falsa:
+
+       \begin{minipage}{.4\linewidth}
+
+                \begin{enumerate}[label=\textbf{\alph*)}]
+                \item $A \cap \emptyset$
+                \item $A- \emptyset$
+                \item $\emptyset-A=\emptyset$
+                \item $(A-A) \cup A=A$
+                \end{enumerate}
+
+       \end{minipage}
+       \begin{minipage}{.4\linewidth}
+
+                \begin{enumerate}[resume, label=\textbf{\alph*)}]
+                \item $(A-A) \cap A=A$
+                \item $(A \cap A) \cup \emptyset=\emptyset$
+                \item $\complement_{A^{(\complement_{A^{B}})}}=B$ com $B \subset A$
+                \end{enumerate}
+
+       \end{minipage}
+
+\end{enumerate}
+
+%\end{comment}
+
+\chapter*{Gabarito}
+
+\begin{enumerate}[label=\textbf{\arabic*)}]
+
+\item a) Finito, \hspace{2cm} b) Infinito, \hspace{2cm} c) Vazio
+
+\item a) $A \subset B$, \hspace{2cm} b) $A \subset C$, \hspace{2cm} c)  $B \not\subset C$
+
+\item a) V, \hspace{2cm} b) V, \hspace{2cm} c) F, \hspace{2cm} d) F, \hspace{2cm} e) V,
+
+f) V, \hspace{2cm} g) V, \hspace{2cm} h) V
+
+\item $A=\{1, 2, 3\}$ e $B=\{3, 4, 5\}$
+\item $X=\{1, 2, 3, 4, 5\}$ e $Y=\{1, 2\}$
+\item a) $\{0, 1, 2, 3, 5\}$, \hspace{2.7cm} b) $\{0, 1, 2, 3, 4, 6, 8\}$, \hspace{1.5cm} c) $\{0, 1, 2, 3, 5, 7, 9\}$,
+
+d) $\{0, 2, 3, 4, 5, 6, 8 \}$, \hspace{2cm} e) $\{0, 2, 3, 5, 7, 9\}$, \hspace{2cm} f) $\{0, 2, 4, 5, 6, 7, 8, 9\}$
+\item a) $\{0, 1, 2\}$, \hspace{2cm} b) $\{0, 2, 4\}$,\hspace{2cm} c) $\{1, 3\}$
+
+d) $\{0, 2\}$, \hspace{2.3cm} e) $\{0,2\}$, \hspace{2.3cm} f) $\emptyset$
+\item a) disjuntos, \hspace{2cm} b) 3, \hspace{2cm} c) zero
+\item a) $\{0, 1, 2, 3, 5\}$, \hspace{2cm} b) $\{0, 2, 3\}$, \hspace{2cm} c) $\{2, 3\}$,
+
+d) $\{0, 2, 3\}$, \hspace{2.7cm} e) $\{0, 1, 2, 3\}$, \hspace{1.8cm} f) $\{3\}$
+\item a) $A=\{1, 2, 3, 5\}$, \hspace{2cm} b) $B=\{1, 2, 3, 5, 6, 10, 15, 30\}$, \hspace{2cm} c) $\{1, 2, 3, 6\}$,\hspace{2cm} d) $6$.
+\item a) $\{3, 6, 15, 30\}$,\hspace{2cm} b) $B$, \hspace{2cm} c) $\{3, 6, 15, 30\}$,
+
+d) $\{6, 30\}$, \hspace{2.7cm} e) $\{1, 2, 3, 5, 10, 15\}$
+\item a) $\{1, 2, 3, 4, 6, 7, 9\}$,\hspace{1.5cm} b) $\{2, 4\}$, \hspace{4cm} c) $\{1 , 2, 3, 4, 5, 6, 8, 9\}$,
+
+d) $\{2, 6\}$ \hspace{3.3cm} e) $\{2, 4, 5, 6, 7, 8, 9\}$, \hspace{2.2cm} f) $\{2\}$,
+
+g) $\{1, 2, 3, 4, 5, 6, 7, 8, 9\}$, \hspace{.7cm} h) $\{2, 4, 6\}$, \hspace{3.6cm} i) $\{2, 9\}$,
+
+ j) $\{2, 4, 5, 6, 8, 9\}$
+\item a) $\{0\}$, \hspace{2cm} b) $\{0, 1\}$, \hspace{2cm} c) $\{1\}$, \hspace{2cm}d) $\{1\}$,
+
+e) $\{1\}$, \hspace{2cm} f) $\{0, 1, 2, 3\}$, \hspace{1.4cm} g) $\{0\}$, \hspace{1.8cm} h) $\{0, 1\}$,
+
+i) $\{2, 3, 4, 5\}$
+
+\item a) V, \hspace{2cm}b) V, \hspace{2cm} c) V, \hspace{2cm} d) V, \hspace{2cm} e) F,
+
+f) F, \hspace{2cm} g) V
+\end{enumerate}
+
+
+\end{SingleSpace}
+
+\end{comment}
+
